@@ -2,8 +2,24 @@
 body{
     font-family:'Roboto', sans-serif; 
 }
+
 .header{
-    border-clor: red;
-    padding-top: 0.5rem;
+    border-color: red;
+    padding-top: .5rem;
     padding-left: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.navlinks{
+    display:flex;
+    margin-left: auto;
+}
+.navlinks{
+    list-style-type:none 
+}
+.navlinks{
+    gap: 20px;
+}
+.navlinks{
+    align-items:center;    
 }
